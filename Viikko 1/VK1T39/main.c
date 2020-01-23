@@ -2,7 +2,7 @@
 
 int main()
 {
-    int luku = 0;
+    int luku;
 
     printf("Syota jokin luku: ");
     scanf("%d", &luku);
