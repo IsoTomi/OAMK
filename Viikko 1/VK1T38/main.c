@@ -4,9 +4,9 @@ int main()
 {
     int luku;
 
-    printf("Syota jokin luku: ");
+    printf("Syötä jokin luku: ");
     scanf("%d", &luku);
-    printf("Syotit luvun %d.\n", luku);
+    printf("Syötit luvun %d.\n", luku);
 
     return 0;
 }

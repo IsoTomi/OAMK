@@ -5,7 +5,7 @@ int main()
     char str[50];
 
     printf("Kirjoita jotain (vahintaan nelja kirjainta): ");
-    scanf("%50s", str);
+    scanf("%s", str);
 
     for (int i=0; i<3; ++i)
         printf("%c\n", str[i]);

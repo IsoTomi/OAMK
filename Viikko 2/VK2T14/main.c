@@ -5,7 +5,7 @@ int main()
     char userName[50];
 
     printf("Anna nimesi: ");
-    scanf("%s", userName);
+    scanf("%[^\n]s", userName);
     printf("Terve %s!\n\n", userName);
 
     return 0;

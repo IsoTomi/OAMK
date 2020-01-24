@@ -9,7 +9,7 @@ int main()
     printf("Anna toinen luku: ");
     scanf("%d", &y);
 
-    jaannos = x % y;
+     jaannos = x % y;
 
     if (jaannos == 0)
         printf("Ensimmainen luku on jaollinen toisella luvulla. ");

@@ -2,15 +2,15 @@
 
 int main()
 {
-    int luku;
+    int x;
 
     printf("Anna salanumero: ");
-    scanf("%d", &luku);
+    scanf("%d", &x);
 
-    while (luku != 17)
+    while (x != 17)
     {
         printf("Vaara salanumero! Syota uudelleen: ");
-        scanf("%d", &luku);
+        scanf("%d", &x);
     }
 
     printf("Onneksi olkoon! Salanumero on oikein!\n");
