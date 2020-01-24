@@ -2,6 +2,11 @@
 
 int main()
 {
-    printf("Hello World!\n");
+    char userName[50];
+
+    printf("Anna nimesi: ");
+    scanf("%s", userName);
+    printf("Terve %s!\n\n", userName);
+
     return 0;
 }
